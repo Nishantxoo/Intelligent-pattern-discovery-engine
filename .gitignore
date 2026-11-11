@@ -1,0 +1,51 @@
+# JavaScript dependencies and build output
+node_modules/
+.next/
+out/
+dist/
+build/
+coverage/
+*.tsbuildinfo
+next-env.d.ts
+
+# Python environments, caches, and compiled files
+.venv/
+venv/
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+*.py[cod]
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+*.pem
+
+# Local datasets and generated exports
+/data/
+data/
+*.xlsx
+*.xls
+*.xlsm
+*.csv
+*.parquet
+*.db
+*.sqlite
+
+# Editors and operating system files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Backup or scratch copies
+*_backup.py
+*.bak
+*.zip
+
+# Editor/agent scaffolding and nested backup configs
+/AGENTS.md
+/CLAUDE.md
+*.bak.*
+
